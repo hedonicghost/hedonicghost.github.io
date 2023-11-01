@@ -10,8 +10,11 @@ ABSOLUTELY I CAN. NICE.
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <li>POSTS</li>
+    <ul>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author }}
+      </li>
+    </ul>
   {% endfor %}
 </ul>
