@@ -2,4 +2,4 @@ theme: jekyll-theme-hacker
 title: HedonicGhost
 description: can't code
 show_downloads: false
-permalink: pretty
+# permalink: pretty
